@@ -1,9 +1,9 @@
 body{
-	background-color: deeppink;
+	background:deeppink
 }
 
-.App {
-  background-color: deeppink;
+.App{
+  background-color: rgb(255, 20, 147);
   min-height: 500px;
   width: 400px;
   margin:40px auto;
@@ -12,33 +12,38 @@ body{
 
 #to-do-form input{
 	background-color:white;
+	border: 0px;
 	width: 200px;
 	height: 50px;
 	padding: 0 20px;
 	margin:20 px;
-	box-shadow: 0px 8px 27px -3px #97A1F5;
+	box-shadow: 0px 8px 27px -3px #7160ad;
 	border-radius: 73px;
 	font-size: 16px;
-	color: rgb(7, 8, 8);
+	color: rgb(30, 30, 109);
 }
 
 #to-do-form input::placeholder{
-	color: blue;
+	color: rgb(150, 150, 161);
 }
-#to-do-form input:focus{
+#to-do-form input:focus,#to-do-form button:focus{
 	outline: none;
 }
 
 #to-do-form button{
-	height: 50 px;
-	width: 80px;
-	border-radius: 5 px;
-	border:0;
+	height: 45px;
+	margin:20px;
+	width: 70px;
+	border-radius:20px;
+	border:0px;
 	background-color: white;
+	box-shadow: 0px 8px 27px -3px #767ba8;
 	cursor: pointer;
-	font-weight: bolder;
-	color: white;
+	font-weight:bold;
+	font-size: 16px;
+	color: rgb(82, 31, 177);
 }
+
 
 
 
