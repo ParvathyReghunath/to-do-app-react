@@ -3,7 +3,7 @@ body{
 }
 
 .App{
-  background-color: rgb(255, 20, 147);
+  background-color: deeppink;
   min-height: 500px;
   width: 400px;
   margin:40px auto;

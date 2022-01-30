@@ -1,7 +1,7 @@
 .list{
-    color: rgb(231, 224, 224);
+    color: rgb(30, 30, 109);
     width: 300px;
-    background-color: rgb(83, 13, 148);
+    background-color:#FFFFFF;
     height:50px;
     margin: 20px auto;
     border-radius:10px;
@@ -11,5 +11,17 @@
 
 .list p{
     padding: 20px; 
+    position: relative;
 
+}
+
+.list p span{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+
+.faicons{
+    margin: 0 5px;
+    font-size: 15px;
 }
