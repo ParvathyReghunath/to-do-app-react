@@ -25,3 +25,15 @@
     margin: 0 5px;
     font-size: 15px;
 }
+
+.list p input{
+    background-color: transparent;
+    border: 0;
+    color: rgb(30, 30, 109);
+    font-size: 18px;
+}
+
+.list p input:focus{
+    outline:none;
+}
+
